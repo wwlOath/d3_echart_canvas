@@ -1,16 +1,16 @@
 <template>
-  <div>
-    <div>
-      <canvas width="100" height="43" id="canvas" @click="refresh" ref="codeRef"></canvas>
-    </div>
+  <div class="codeContainer">
+      <canvas width="100" height="43" id="canvasCode" @click="refresh" ref="codeRef"></canvas>
   </div>
 </template>
 
 <style lang="less">
-  #canvas {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    cursor: pointer;
+  .codeContainer {
+    #canvasCode {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      cursor: pointer;
+    }
   }
 </style>
 
@@ -26,7 +26,7 @@
       init() {
         let width = this.$refs.codeRef.clientWidth;
         let height = this.$refs.codeRef.clientHeight;
-        let canvas = document.getElementById('canvas');
+        let canvas = document.getElementById('canvasCode');
         let context = canvas.getContext('2d');
         canvas.width = width;
         canvas.height = height;

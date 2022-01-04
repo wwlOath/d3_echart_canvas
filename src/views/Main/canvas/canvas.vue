@@ -71,6 +71,8 @@
           <h3>右滑拼图验证</h3>
           <slideVerification></slideVerification>
           <br>
+          <br>
+          <br>
           <!--<slideVerifySingle></slideVerifySingle>-->
         </el-card>
       </el-col>
@@ -93,7 +95,9 @@
         <el-card class="dashboard-card setting-center">
           <!--电子签名 pc mobile-->
           <h3>验证码</h3>
-          <verificationCode></verificationCode>
+          <div style="height: 280px;">
+            <verificationCode></verificationCode>
+          </div>
         </el-card>
       </el-col>
     </el-row>

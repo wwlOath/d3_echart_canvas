@@ -5,7 +5,6 @@
 </template>
 
 <style lang="less">
-
 </style>
 
 <script>
@@ -41,7 +40,6 @@
         this.context = ctx;
         this.contextBack = contextBack;
         this.numBack = numBack;
-
         setInterval(this.pageInit, 50);
       },
       pageInit() {
@@ -72,7 +70,6 @@
         this.numBack.closePath();
         this.numBack.restore();
       },
-
       // 绘制秒针
       drawSecPin(){
         this.contextBack.save();
@@ -94,7 +91,6 @@
         this.contextBack.closePath();
         this.contextBack.restore();
       },
-
       // 绘制分针
       drawMinPin(){
         this.contextBack.save();
@@ -105,7 +101,6 @@
         this.contextBack.lineWidth = 1;
         this.contextBack.lineJoin="bevel";
         this.contextBack.miterLimit=10;
-
         this.contextBack.moveTo(0,20);
         this.contextBack.lineTo(3,-this.widthValue/2+105);
         this.contextBack.lineTo(10,-this.widthValue/2+115);
@@ -116,9 +111,7 @@
         this.contextBack.stroke();
         this.contextBack.closePath();
         this.contextBack.restore();
-
       },
-
       // 绘制时针
       drawHouPin(){
         this.contextBack.save();
@@ -129,7 +122,6 @@
         this.contextBack.lineWidth = 1;
         this.contextBack.lineJoin="bevel";
         this.contextBack.miterLimit=10;
-
         this.contextBack.moveTo(0,20);
         this.contextBack.lineTo(3,-this.widthValue/2+120);
         this.contextBack.lineTo(10,-this.widthValue/2+130);
@@ -140,17 +132,13 @@
         this.contextBack.stroke();
         this.contextBack.closePath();
         this.contextBack.restore();
-
       },
-
       setPoint(){
         this.contextBack.beginPath();
         this.contextBack.fillStyle = 'black';
         this.contextBack.arc(this.widthValue/2,this.heightValue/2,3, 0, 2*Math.PI);
         this.contextBack.stroke();
       },
-
-
       showBack(){
         for(let i = 0; i < 60; i++){
           this.contextBack.save();
@@ -169,7 +157,6 @@
         this.contextBack.arc(this.widthValue/2,this.heightValue/2,this.widthValue/2-20, 0, 2*Math.PI);
         this.contextBack.stroke();
       },
-
       degToRad(degree){
         let result;
         let factor = Math.PI/180;
@@ -180,9 +167,7 @@
         }
         return result;
       },
-
       showTime(){
-
         let now = new Date();
         let today = now.toLocaleDateString();
         let time = now.toLocaleTimeString();
@@ -192,14 +177,11 @@
         let sec = now.getSeconds();
         let mil = now.getMilliseconds();
         let smoothsec = sec+(mil/1000);
-
         let smoothmin = min+(smoothsec/60);
         let hours = hrs+(smoothmin/60);
-
         this.milliseconds = smoothsec;
         this.minutes = smoothmin;
         this.hour = hours;
-
         switch (day){
           case 1 : this.date = '一'
             break;
@@ -216,14 +198,12 @@
           case 0 : this.date =  '日'
             break;
         }
-
         //Background
         let gradient = this.context.createRadialGradient(this.widthValue/2, this.heightValue/2, 5, this.widthValue/2, this.heightValue/2, 300);
         gradient.addColorStop(0, "#03303a");
         gradient.addColorStop(1, "black");
         this.context.fillStyle = gradient;
         this.context.fillRect(0, 0, this.widthValue, this.heightValue);
-
         //this.hours
         this.context.beginPath();
         this.context.strokeStyle = '#87CEFA';
@@ -234,7 +214,7 @@
         this.context.strokeStyle = '#20B2AA';
         this.context.arc(this.widthValue/2,this.heightValue/2,this.widthValue/2-30, this.degToRad(0), this.degToRad(smoothmin*6-90));
         this.context.stroke();
-         //Seconds
+        //Seconds
         this.context.beginPath();
         this.context.strokeStyle = '#AFEEEE';
         this.context.arc(this.widthValue/2,this.heightValue/2,this.widthValue/2-25, this.degToRad(0), this.degToRad(smoothsec*6-90));
@@ -254,5 +234,4 @@
       this.init();
     }
   }
-
 </script>
