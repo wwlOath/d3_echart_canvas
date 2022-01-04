@@ -1,0 +1,378 @@
+{
+  "dataset_total": {
+    "datasets": 4,
+    "datasets_chinese": 1,
+    "cases": 4238,
+    "cases_chinese": 465,
+    "genes": 31389,
+    "mutations": 182458,
+    "release": "Data Release 1 - Sept 1, 2021"
+  },
+  "top_mutation": {
+    "dataset": [
+      "BC001",
+      "BC002",
+      "BC003",
+      "BC004"
+    ],
+    "gene": [
+      "TP53",
+      "PIK3CA",
+      "MUC16",
+      "AHNAK2",
+      "SYNE1",
+      "KMT2C",
+      "GATA3",
+      "CDH1",
+      "MAP3K1",
+      "RYR2",
+      "DNAH11",
+      "USH2A",
+      "AHNAK",
+      "DNAH2",
+      "HERC2"
+    ],
+    "value": [
+      [
+        {
+          "value": 206,
+          "total": 279
+        },
+        {
+          "value": 348,
+          "total": 1066
+        },
+        {
+          "value": 869,
+          "total": 2509
+        },
+        {
+          "value": 76,
+          "total": 237
+        }
+      ],
+      [
+        {
+          "value": 50,
+          "total": 279
+        },
+        {
+          "value": 349,
+          "total": 1066
+        },
+        {
+          "value": 980,
+          "total": 2509
+        },
+        {
+          "value": 76,
+          "total": 237
+        }
+      ],
+      [
+        {
+          "value": 36,
+          "total": 279
+        },
+        {
+          "value": 140,
+          "total": 1066
+        },
+        {
+          "value": 527,
+          "total": 2509
+        },
+        {
+          "value": 23,
+          "total": 237
+        }
+      ],
+      [
+        {
+          "value": 10,
+          "total": 279
+        },
+        {
+          "value": 39,
+          "total": 1066
+        },
+        {
+          "value": 530,
+          "total": 2509
+        },
+        {
+          "value": 1,
+          "total": 237
+        }
+      ],
+      [
+        {
+          "value": 15,
+          "total": 279
+        },
+        {
+          "value": 79,
+          "total": 1066
+        },
+        {
+          "value": 397,
+          "total": 2509
+        },
+        {
+          "value": 16,
+          "total": 237
+        }
+      ],
+      [
+        {
+          "value": 21,
+          "total": 279
+        },
+        {
+          "value": 104,
+          "total": 1066
+        },
+        {
+          "value": 338,
+          "total": 2509
+        },
+        {
+          "value": 17,
+          "total": 237
+        }
+      ],
+      [
+        {
+          "value": 1,
+          "total": 279
+        },
+        {
+          "value": 131,
+          "total": 1066
+        },
+        {
+          "value": 288,
+          "total": 2509
+        },
+        {
+          "value": 26,
+          "total": 237
+        }
+      ],
+      [
+        {
+          "value": 5,
+          "total": 279
+        },
+        {
+          "value": 132,
+          "total": 1066
+        },
+        {
+          "value": 245,
+          "total": 2509
+        },
+        {
+          "value": 34,
+          "total": 237
+        }
+      ],
+      [
+        {
+          "value": 4,
+          "total": 279
+        },
+        {
+          "value": 92,
+          "total": 1066
+        },
+        {
+          "value": 264,
+          "total": 2509
+        },
+        {
+          "value": 11,
+          "total": 237
+        }
+      ],
+      [
+        {
+          "value": 20,
+          "total": 279
+        },
+        {
+          "value": 90,
+          "total": 1066
+        },
+        {
+          "value": 218,
+          "total": 2509
+        },
+        {
+          "value": 11,
+          "total": 237
+        }
+      ],
+      [
+        {
+          "value": 9,
+          "total": 279
+        },
+        {
+          "value": 50,
+          "total": 1066
+        },
+        {
+          "value": 273,
+          "total": 2509
+        },
+        {
+          "value": 5,
+          "total": 237
+        }
+      ],
+      [
+        {
+          "value": 14,
+          "total": 279
+        },
+        {
+          "value": 74,
+          "total": 1066
+        },
+        {
+          "value": 230,
+          "total": 2509
+        },
+        {
+          "value": 17,
+          "total": 237
+        }
+      ],
+      [
+        {
+          "value": 14,
+          "total": 279
+        },
+        {
+          "value": 38,
+          "total": 1066
+        },
+        {
+          "value": 272,
+          "total": 2509
+        },
+        {
+          "value": 4,
+          "total": 237
+        }
+      ],
+      [
+        {
+          "value": 5,
+          "total": 279
+        },
+        {
+          "value": 34,
+          "total": 1066
+        },
+        {
+          "value": 260,
+          "total": 2509
+        },
+        {
+          "value": 11,
+          "total": 237
+        }
+      ],
+      [
+        {
+          "value": 6,
+          "total": 279
+        },
+        {
+          "value": 35,
+          "total": 1066
+        },
+        {
+          "value": 248,
+          "total": 2509
+        },
+        {
+          "value": 14,
+          "total": 237
+        }
+      ]
+    ]
+  },
+  "top_mutation_chinese": {
+    "dataset": [
+      "BC001"
+    ],
+    "gene": [
+      "TP53",
+      "OR8I2",
+      "TTN",
+      "PIK3CA",
+      "MUC16",
+      "OBSCN",
+      "KMT2C",
+      "CACNA1E",
+      "CSMD3",
+      "RYR2",
+      "ABCA13",
+      "DNAH9",
+      "TNXB",
+      "PTEN",
+      "APOB"
+    ],
+    "value": [
+      [
+        206
+      ],
+      [
+        54
+      ],
+      [
+        52
+      ],
+      [
+        50
+      ],
+      [
+        36
+      ],
+      [
+        23
+      ],
+      [
+        21
+      ],
+      [
+        20
+      ],
+      [
+        20
+      ],
+      [
+        20
+      ],
+      [
+        19
+      ],
+      [
+        19
+      ],
+      [
+        19
+      ],
+      [
+        18
+      ],
+      [
+        17
+      ]
+    ]
+  }
+}
+

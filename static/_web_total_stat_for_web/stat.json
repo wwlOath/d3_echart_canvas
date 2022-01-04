@@ -1,0 +1,1434 @@
+{
+  "mutation_stat": [
+    {
+      "title": "Mutation Count",
+      "x_label": "Number of mutations in a sample",
+      "y_label": "Number of samples",
+      "x": "x",
+      "y": "y",
+      "tool_tip": "Number of samples: {y}<br/>Range: {v}",
+      "data": [
+        {
+          "x": 15,
+          "y": 10,
+          "v": "<=15"
+        },
+        {
+          "x": 30,
+          "y": 104,
+          "v": "(15 ,30]"
+        },
+        {
+          "x": 45,
+          "y": 201,
+          "v": "(30 ,45]"
+        },
+        {
+          "x": 60,
+          "y": 160,
+          "v": "(45 ,60]"
+        },
+        {
+          "x": 75,
+          "y": 113,
+          "v": "(60 ,75]"
+        },
+        {
+          "x": 90,
+          "y": 80,
+          "v": "(75 ,90]"
+        },
+        {
+          "x": 105,
+          "y": 73,
+          "v": "(90 ,105]"
+        },
+        {
+          "x": 120,
+          "y": 44,
+          "v": "(105 ,120]"
+        },
+        {
+          "x": 135,
+          "y": 35,
+          "v": "(120 ,135]"
+        },
+        {
+          "x": 150,
+          "y": 23,
+          "v": "(135 ,150]"
+        },
+        {
+          "x": 165,
+          "y": 25,
+          "v": "(150 ,165]"
+        },
+        {
+          "x": 180,
+          "y": 13,
+          "v": "(165 ,180]"
+        },
+        {
+          "x": 195,
+          "y": 16,
+          "v": "(180 ,195]"
+        },
+        {
+          "x": 7587,
+          "y": 112,
+          "v": ">195"
+        },
+        {
+          "x": "NA",
+          "y": 57,
+          "v": "NA"
+        }
+      ]
+    },
+    {
+      "title": "Top Frequent Mutated Genes",
+      "x_label": "Gene",
+      "y_label": "Number of samples",
+      "x": "x",
+      "y": "y",
+      "tool_tip": "{v1} mutations in {y} ({v2}%) samples",
+      "data": [
+        {
+          "x": "PIK3CA",
+          "y": 349,
+          "v1": 416,
+          "v2": 32.7
+        },
+        {
+          "x": "TP53",
+          "y": 348,
+          "v1": 372,
+          "v2": 32.6
+        },
+        {
+          "x": "TTN",
+          "y": 230,
+          "v1": 435,
+          "v2": 21.6
+        },
+        {
+          "x": "MUC16",
+          "y": 140,
+          "v1": 209,
+          "v2": 13.1
+        },
+        {
+          "x": "CDH1",
+          "y": 132,
+          "v1": 141,
+          "v2": 12.4
+        },
+        {
+          "x": "GATA3",
+          "y": 131,
+          "v1": 140,
+          "v2": 12.3
+        },
+        {
+          "x": "KMT2C",
+          "y": 104,
+          "v1": 131,
+          "v2": 9.8
+        },
+        {
+          "x": "MAP3K1",
+          "y": 92,
+          "v1": 141,
+          "v2": 8.6
+        },
+        {
+          "x": "RYR2",
+          "y": 90,
+          "v1": 120,
+          "v2": 8.4
+        },
+        {
+          "x": "FLG",
+          "y": 82,
+          "v1": 104,
+          "v2": 7.7
+        }
+      ]
+    },
+    {
+      "title": "Top Frequent Mutations",
+      "x_label": "HGVSp",
+      "y_label": "Number of samples",
+      "x": "HGVSp",
+      "y": "Mutated_Samples",
+      "tool_tip": "Hugo_Symbol: {Hugo_Symbol}<br/>HGVSc: {HGVSc}<br/>{Mutations} mutations in {Mutated_Samples} ({Percents}%) samples",
+      "data": [
+        {
+          "HGVSp": "p.His1047Arg",
+          "Mutated_Samples": 129,
+          "Hugo_Symbol": "PIK3CA",
+          "HGVSc": "c.3140A>G",
+          "Mutations": 133,
+          "Percents": 12.1
+        },
+        {
+          "HGVSp": "p.Glu545Lys",
+          "Mutated_Samples": 65,
+          "Hugo_Symbol": "PIK3CA",
+          "HGVSc": "c.1633G>A",
+          "Mutations": 70,
+          "Percents": 6.1
+        },
+        {
+          "HGVSp": "p.Glu542Lys",
+          "Mutated_Samples": 43,
+          "Hugo_Symbol": "PIK3CA",
+          "HGVSc": "c.1624G>A",
+          "Mutations": 44,
+          "Percents": 4
+        },
+        {
+          "HGVSp": "p.Glu17Lys",
+          "Mutated_Samples": 25,
+          "Hugo_Symbol": "AKT1",
+          "HGVSc": "c.49G>A",
+          "Mutations": 26,
+          "Percents": 2.3
+        },
+        {
+          "HGVSp": "p.Arg175His",
+          "Mutated_Samples": 21,
+          "Hugo_Symbol": "TP53",
+          "HGVSc": "c.524G>A",
+          "Mutations": 23,
+          "Percents": 2
+        },
+        {
+          "HGVSp": "p.Asn345Lys",
+          "Mutated_Samples": 18,
+          "Hugo_Symbol": "PIK3CA",
+          "HGVSc": "c.1035T>A",
+          "Mutations": 20,
+          "Percents": 1.7
+        },
+        {
+          "HGVSp": "p.His1047Leu",
+          "Mutated_Samples": 13,
+          "Hugo_Symbol": "PIK3CA",
+          "HGVSc": "c.3140A>T",
+          "Mutations": 14,
+          "Percents": 1.2
+        },
+        {
+          "HGVSp": "p.Arg273His",
+          "Mutated_Samples": 13,
+          "Hugo_Symbol": "TP53",
+          "HGVSc": "c.818G>A",
+          "Mutations": 14,
+          "Percents": 1.2
+        },
+        {
+          "HGVSp": "p.Glu726Lys",
+          "Mutated_Samples": 10,
+          "Hugo_Symbol": "PIK3CA",
+          "HGVSc": "c.2176G>A",
+          "Mutations": 10,
+          "Percents": 0.9
+        },
+        {
+          "HGVSp": "p.Lys700Glu",
+          "Mutated_Samples": 10,
+          "Hugo_Symbol": "SF3B1",
+          "HGVSc": "c.2098A>G",
+          "Mutations": 11,
+          "Percents": 0.9
+        }
+      ]
+    }
+  ],
+  "fusion_stat": {
+    "title": "Top Frequent Fusion Genes",
+    "x_label": "Gene",
+    "y_label": "Number of samples",
+    "x": "x",
+    "y": "y",
+    "tool_tip": "{v1} fusions in {y} ({v2}%) samples",
+    "data": [
+      {
+        "x": "SHANK2",
+        "y": 30,
+        "v1": 34,
+        "v2": 2.8
+      },
+      {
+        "x": "BCAS3",
+        "y": 25,
+        "v1": 32,
+        "v2": 2.3
+      },
+      {
+        "x": "FBXL20",
+        "y": 23,
+        "v1": 33,
+        "v2": 2.2
+      },
+      {
+        "x": "CDK12",
+        "y": 21,
+        "v1": 24,
+        "v2": 2
+      },
+      {
+        "x": "RARA",
+        "y": 21,
+        "v1": 23,
+        "v2": 2
+      },
+      {
+        "x": "MSI2",
+        "y": 19,
+        "v1": 23,
+        "v2": 1.8
+      },
+      {
+        "x": "PPFIA1",
+        "y": 19,
+        "v1": 20,
+        "v2": 1.8
+      },
+      {
+        "x": "TANC2",
+        "y": 19,
+        "v1": 20,
+        "v2": 1.8
+      },
+      {
+        "x": "VMP1",
+        "y": 19,
+        "v1": 23,
+        "v2": 1.8
+      },
+      {
+        "x": "NSD3",
+        "y": 18,
+        "v1": 19,
+        "v2": 1.7
+      },
+      {
+        "x": "USP32",
+        "y": 18,
+        "v1": 22,
+        "v2": 1.7
+      },
+      {
+        "x": "SSH2",
+        "y": 17,
+        "v1": 17,
+        "v2": 1.6
+      },
+      {
+        "x": "BPTF",
+        "y": 16,
+        "v1": 16,
+        "v2": 1.5
+      },
+      {
+        "x": "IKZF3",
+        "y": 16,
+        "v1": 18,
+        "v2": 1.5
+      },
+      {
+        "x": "MED1",
+        "y": 16,
+        "v1": 19,
+        "v2": 1.5
+      },
+      {
+        "x": "ERBB2",
+        "y": 15,
+        "v1": 17,
+        "v2": 1.4
+      },
+      {
+        "x": "KDM2A",
+        "y": 15,
+        "v1": 17,
+        "v2": 1.4
+      },
+      {
+        "x": "PITPNC1",
+        "y": 15,
+        "v1": 17,
+        "v2": 1.4
+      },
+      {
+        "x": "UVRAG",
+        "y": 15,
+        "v1": 18,
+        "v2": 1.4
+      },
+      {
+        "x": "ANO1",
+        "y": 14,
+        "v1": 14,
+        "v2": 1.3
+      },
+      {
+        "x": "SKAP1",
+        "y": 14,
+        "v1": 17,
+        "v2": 1.3
+      },
+      {
+        "x": "GAB2",
+        "y": 13,
+        "v1": 14,
+        "v2": 1.2
+      },
+      {
+        "x": "MED24",
+        "y": 13,
+        "v1": 13,
+        "v2": 1.2
+      },
+      {
+        "x": "LRP5",
+        "y": 12,
+        "v1": 13,
+        "v2": 1.1
+      },
+      {
+        "x": "PRKCA",
+        "y": 12,
+        "v1": 16,
+        "v2": 1.1
+      },
+      {
+        "x": "RAD51B",
+        "y": 12,
+        "v1": 15,
+        "v2": 1.1
+      },
+      {
+        "x": "STARD3",
+        "y": 12,
+        "v1": 14,
+        "v2": 1.1
+      },
+      {
+        "x": "TEX2",
+        "y": 12,
+        "v1": 13,
+        "v2": 1.1
+      },
+      {
+        "x": "CPB1",
+        "y": 11,
+        "v1": 18,
+        "v2": 1
+      },
+      {
+        "x": "PVT1",
+        "y": 11,
+        "v1": 15,
+        "v2": 1
+      },
+      {
+        "x": "ADK",
+        "y": 10,
+        "v1": 12,
+        "v2": 0.9
+      },
+      {
+        "x": "C11orf80",
+        "y": 10,
+        "v1": 11,
+        "v2": 0.9
+      },
+      {
+        "x": "INTS4",
+        "y": 10,
+        "v1": 12,
+        "v2": 0.9
+      },
+      {
+        "x": "NARS2",
+        "y": 10,
+        "v1": 13,
+        "v2": 0.9
+      },
+      {
+        "x": "PIP4K2B",
+        "y": 10,
+        "v1": 12,
+        "v2": 0.9
+      },
+      {
+        "x": "PPP6R3",
+        "y": 10,
+        "v1": 11,
+        "v2": 0.9
+      }
+    ]
+  },
+  "cna_stat": {
+    "title": "Top Frequent CNA Genes",
+    "x_label": "Gene",
+    "y_label": "Number of samples",
+    "x": "x",
+    "y": "y",
+    "tool_tip": "{v1} in {v2}% samples: {y}",
+    "data": [
+      {
+        "x": "MYC",
+        "y": 161,
+        "v1": "AMP",
+        "v2": 15
+      },
+      {
+        "x": "CCND1",
+        "y": 161,
+        "v1": "AMP",
+        "v2": 15
+      },
+      {
+        "x": "LTO1",
+        "y": 160,
+        "v1": "AMP",
+        "v2": 15
+      },
+      {
+        "x": "MIR1204",
+        "y": 158,
+        "v1": "AMP",
+        "v2": 14.8
+      },
+      {
+        "x": "CASC8",
+        "y": 157,
+        "v1": "AMP",
+        "v2": 14.7
+      },
+      {
+        "x": "CCAT2",
+        "y": 156,
+        "v1": "AMP",
+        "v2": 14.6
+      },
+      {
+        "x": "POU5F1B",
+        "y": 156,
+        "v1": "AMP",
+        "v2": 14.6
+      },
+      {
+        "x": "FGF19",
+        "y": 156,
+        "v1": "AMP",
+        "v2": 14.6
+      },
+      {
+        "x": "FGF4",
+        "y": 155,
+        "v1": "AMP",
+        "v2": 14.5
+      },
+      {
+        "x": "FGF3",
+        "y": 154,
+        "v1": "AMP",
+        "v2": 14.4
+      },
+      {
+        "x": "PVT1",
+        "y": 153,
+        "v1": "AMP",
+        "v2": 14.3
+      },
+      {
+        "x": "ANO1",
+        "y": 153,
+        "v1": "AMP",
+        "v2": 14.3
+      },
+      {
+        "x": "LINC00536",
+        "y": 152,
+        "v1": "AMP",
+        "v2": 14.2
+      },
+      {
+        "x": "LINC02584",
+        "y": 152,
+        "v1": "AMP",
+        "v2": 14.2
+      },
+      {
+        "x": "TMEM75",
+        "y": 149,
+        "v1": "AMP",
+        "v2": 13.9
+      },
+      {
+        "x": "MIR1205",
+        "y": 149,
+        "v1": "AMP",
+        "v2": 13.9
+      },
+      {
+        "x": "MIR1208",
+        "y": 149,
+        "v1": "AMP",
+        "v2": 13.9
+      },
+      {
+        "x": "FADD",
+        "y": 149,
+        "v1": "AMP",
+        "v2": 13.9
+      },
+      {
+        "x": "CCAT1",
+        "y": 148,
+        "v1": "AMP",
+        "v2": 13.8
+      },
+      {
+        "x": "PPFIA1",
+        "y": 148,
+        "v1": "AMP",
+        "v2": 13.8
+      },
+      {
+        "x": "EIF3H",
+        "y": 147,
+        "v1": "AMP",
+        "v2": 13.7
+      },
+      {
+        "x": "MIR1206",
+        "y": 147,
+        "v1": "AMP",
+        "v2": 13.7
+      },
+      {
+        "x": "MIR1207",
+        "y": 147,
+        "v1": "AMP",
+        "v2": 13.7
+      },
+      {
+        "x": "MIR548K",
+        "y": 147,
+        "v1": "AMP",
+        "v2": 13.7
+      },
+      {
+        "x": "FAM72C",
+        "y": 145,
+        "v1": "AMP",
+        "v2": 13.6
+      },
+      {
+        "x": "PCAT1",
+        "y": 145,
+        "v1": "AMP",
+        "v2": 13.6
+      },
+      {
+        "x": "PRNCR1",
+        "y": 145,
+        "v1": "AMP",
+        "v2": 13.6
+      },
+      {
+        "x": "CTTN",
+        "y": 145,
+        "v1": "AMP",
+        "v2": 13.6
+      },
+      {
+        "x": "TRPS1",
+        "y": 144,
+        "v1": "AMP",
+        "v2": 13.5
+      },
+      {
+        "x": "SHANK2",
+        "y": 144,
+        "v1": "AMP",
+        "v2": 13.5
+      },
+      {
+        "x": "SRGAP2D",
+        "y": 143,
+        "v1": "AMP",
+        "v2": 13.4
+      },
+      {
+        "x": "UTP23",
+        "y": 143,
+        "v1": "AMP",
+        "v2": 13.4
+      },
+      {
+        "x": "SLC30A8",
+        "y": 143,
+        "v1": "AMP",
+        "v2": 13.4
+      },
+      {
+        "x": "RAD21",
+        "y": 141,
+        "v1": "AMP",
+        "v2": 13.2
+      },
+      {
+        "x": "LRATD2",
+        "y": 141,
+        "v1": "AMP",
+        "v2": 13.2
+      },
+      {
+        "x": "MIR3610",
+        "y": 140,
+        "v1": "AMP",
+        "v2": 13.1
+      }
+    ]
+  },
+  "cna_stat_heatmap": "cna_heatmap.jpg",
+  "genome_event_summary": [
+    "PIK3CA",
+    "TP53",
+    "TTN",
+    "MUC16",
+    "CDH1",
+    "MAP3K1",
+    "GATA3",
+    "KMT2C",
+    "SYNE1",
+    "RYR2"
+  ],
+  "deg_stat": {
+    "kegg_enrichment": {
+      "title": "KEGG Enrichment Analysis",
+      "x_label": "GeneRatio",
+      "y_label": "Description",
+      "x": "GeneRatio_n",
+      "y": "Description",
+      "tool_tip": "{ID}: {Description}<br/>Gene ratio = {GeneRatio}<br/>Background ratio = {BgRatio}<br/>Adjusted p-value = {p.adjust}",
+      "legend_by": "p.adjust",
+      "size_by": "Count",
+      "data": [
+        {
+          "GeneRatio_n": 0.0778,
+          "Description": "Neuroactive ligand-receptor interaction",
+          "ID": "hsa04080",
+          "GeneRatio": "172/2210",
+          "BgRatio": "341/8093",
+          "p.adjust": 5.55e-18,
+          "Count": 172
+        },
+        {
+          "GeneRatio_n": 0.043,
+          "Description": "Alcoholism",
+          "ID": "hsa05034",
+          "GeneRatio": "95/2210",
+          "BgRatio": "187/8093",
+          "p.adjust": 5.41e-10,
+          "Count": 95
+        },
+        {
+          "GeneRatio_n": 0.0339,
+          "Description": "Systemic lupus erythematosus",
+          "ID": "hsa05322",
+          "GeneRatio": "75/2210",
+          "BgRatio": "136/8093",
+          "p.adjust": 5.41e-10,
+          "Count": 75
+        },
+        {
+          "GeneRatio_n": 0.057,
+          "Description": "Cytokine-cytokine receptor interaction",
+          "ID": "hsa04060",
+          "GeneRatio": "126/2210",
+          "BgRatio": "295/8093",
+          "p.adjust": 3.34e-07,
+          "Count": 126
+        },
+        {
+          "GeneRatio_n": 0.0253,
+          "Description": "Protein digestion and absorption",
+          "ID": "hsa04974",
+          "GeneRatio": "56/2210",
+          "BgRatio": "103/8093",
+          "p.adjust": 3.34e-07,
+          "Count": 56
+        },
+        {
+          "GeneRatio_n": 0.0394,
+          "Description": "Neutrophil extracellular trap formation",
+          "ID": "hsa04613",
+          "GeneRatio": "87/2210",
+          "BgRatio": "190/8093",
+          "p.adjust": 1.48e-06,
+          "Count": 87
+        },
+        {
+          "GeneRatio_n": 0.0434,
+          "Description": "cAMP signaling pathway",
+          "ID": "hsa04024",
+          "GeneRatio": "96/2210",
+          "BgRatio": "219/8093",
+          "p.adjust": 3.51e-06,
+          "Count": 96
+        },
+        {
+          "GeneRatio_n": 0.0462,
+          "Description": "Calcium signaling pathway",
+          "ID": "hsa04020",
+          "GeneRatio": "102/2210",
+          "BgRatio": "240/8093",
+          "p.adjust": 7.89e-06,
+          "Count": 102
+        },
+        {
+          "GeneRatio_n": 0.0204,
+          "Description": "Complement and coagulation cascades",
+          "ID": "hsa04610",
+          "GeneRatio": "45/2210",
+          "BgRatio": "85/8093",
+          "p.adjust": 1.66e-05,
+          "Count": 45
+        },
+        {
+          "GeneRatio_n": 0.038,
+          "Description": "Transcriptional misregulation in cancer",
+          "ID": "hsa05202",
+          "GeneRatio": "84/2210",
+          "BgRatio": "192/8093",
+          "p.adjust": 1.78e-05,
+          "Count": 84
+        },
+        {
+          "GeneRatio_n": 0.0222,
+          "Description": "Viral protein interaction with cytokine and cytokine receptor",
+          "ID": "hsa04061",
+          "GeneRatio": "49/2210",
+          "BgRatio": "100/8093",
+          "p.adjust": 8.41e-05,
+          "Count": 49
+        },
+        {
+          "GeneRatio_n": 0.0109,
+          "Description": "Nicotine addiction",
+          "ID": "hsa05033",
+          "GeneRatio": "24/2210",
+          "BgRatio": "40/8093",
+          "p.adjust": 0.000363,
+          "Count": 24
+        },
+        {
+          "GeneRatio_n": 0.0217,
+          "Description": "Pancreatic secretion",
+          "ID": "hsa04972",
+          "GeneRatio": "48/2210",
+          "BgRatio": "102/8093",
+          "p.adjust": 0.000363,
+          "Count": 48
+        },
+        {
+          "GeneRatio_n": 0.0172,
+          "Description": "PPAR signaling pathway",
+          "ID": "hsa03320",
+          "GeneRatio": "38/2210",
+          "BgRatio": "76/8093",
+          "p.adjust": 0.000474,
+          "Count": 38
+        },
+        {
+          "GeneRatio_n": 0.0195,
+          "Description": "Hypertrophic cardiomyopathy",
+          "ID": "hsa05410",
+          "GeneRatio": "43/2210",
+          "BgRatio": "90/8093",
+          "p.adjust": 0.000548,
+          "Count": 43
+        },
+        {
+          "GeneRatio_n": 0.0204,
+          "Description": "Dilated cardiomyopathy",
+          "ID": "hsa05414",
+          "GeneRatio": "45/2210",
+          "BgRatio": "96/8093",
+          "p.adjust": 0.000613,
+          "Count": 45
+        },
+        {
+          "GeneRatio_n": 0.019,
+          "Description": "ECM-receptor interaction",
+          "ID": "hsa04512",
+          "GeneRatio": "42/2210",
+          "BgRatio": "88/8093",
+          "p.adjust": 0.000618,
+          "Count": 42
+        },
+        {
+          "GeneRatio_n": 0.0154,
+          "Description": "Retinol metabolism",
+          "ID": "hsa00830",
+          "GeneRatio": "34/2210",
+          "BgRatio": "68/8093",
+          "p.adjust": 0.000996,
+          "Count": 34
+        },
+        {
+          "GeneRatio_n": 0.0357,
+          "Description": "Focal adhesion",
+          "ID": "hsa04510",
+          "GeneRatio": "79/2210",
+          "BgRatio": "201/8093",
+          "p.adjust": 0.00216,
+          "Count": 79
+        },
+        {
+          "GeneRatio_n": 0.0127,
+          "Description": "Regulation of lipolysis in adipocytes",
+          "ID": "hsa04923",
+          "GeneRatio": "28/2210",
+          "BgRatio": "57/8093",
+          "p.adjust": 0.00585,
+          "Count": 28
+        },
+        {
+          "GeneRatio_n": 0.0131,
+          "Description": "Steroid hormone biosynthesis",
+          "ID": "hsa00140",
+          "GeneRatio": "29/2210",
+          "BgRatio": "61/8093",
+          "p.adjust": 0.00881,
+          "Count": 29
+        },
+        {
+          "GeneRatio_n": 0.0181,
+          "Description": "Salivary secretion",
+          "ID": "hsa04970",
+          "GeneRatio": "40/2210",
+          "BgRatio": "93/8093",
+          "p.adjust": 0.0113,
+          "Count": 40
+        },
+        {
+          "GeneRatio_n": 0.0267,
+          "Description": "Adrenergic signaling in cardiomyocytes",
+          "ID": "hsa04261",
+          "GeneRatio": "59/2210",
+          "BgRatio": "150/8093",
+          "p.adjust": 0.0116,
+          "Count": 59
+        },
+        {
+          "GeneRatio_n": 0.0176,
+          "Description": "Morphine addiction",
+          "ID": "hsa05032",
+          "GeneRatio": "39/2210",
+          "BgRatio": "91/8093",
+          "p.adjust": 0.0116,
+          "Count": 39
+        },
+        {
+          "GeneRatio_n": 0.0127,
+          "Description": "Mineral absorption",
+          "ID": "hsa04978",
+          "GeneRatio": "28/2210",
+          "BgRatio": "60/8093",
+          "p.adjust": 0.0116,
+          "Count": 28
+        },
+        {
+          "GeneRatio_n": 0.0557,
+          "Description": "PI3K-Akt signaling pathway",
+          "ID": "hsa04151",
+          "GeneRatio": "123/2210",
+          "BgRatio": "354/8093",
+          "p.adjust": 0.0116,
+          "Count": 123
+        },
+        {
+          "GeneRatio_n": 0.0086,
+          "Description": "Tyrosine metabolism",
+          "ID": "hsa00350",
+          "GeneRatio": "19/2210",
+          "BgRatio": "36/8093",
+          "p.adjust": 0.0116,
+          "Count": 19
+        },
+        {
+          "GeneRatio_n": 0.0154,
+          "Description": "Arrhythmogenic right ventricular cardiomyopathy",
+          "ID": "hsa05412",
+          "GeneRatio": "34/2210",
+          "BgRatio": "77/8093",
+          "p.adjust": 0.0116,
+          "Count": 34
+        },
+        {
+          "GeneRatio_n": 0.0312,
+          "Description": "Axon guidance",
+          "ID": "hsa04360",
+          "GeneRatio": "69/2210",
+          "BgRatio": "182/8093",
+          "p.adjust": 0.0116,
+          "Count": 69
+        },
+        {
+          "GeneRatio_n": 0.0068,
+          "Description": "Maturity onset diabetes of the young",
+          "ID": "hsa04950",
+          "GeneRatio": "15/2210",
+          "BgRatio": "26/8093",
+          "p.adjust": 0.0116,
+          "Count": 15
+        }
+      ]
+    },
+    "go_enrichment": {
+      "title": "GO Enrichment Analysis",
+      "x_label": "Description",
+      "y_label": "-log10(p.adjust)",
+      "x": "Description",
+      "y": "p.adjust",
+      "tool_tip": "{ID}: {Description}<br/>Gene ratio = {GeneRatio}<br/>Background ratio = {BgRatio}<br/>Adjusted p-value = {p.adjust}<br/>Type = {type}",
+      "legend_by": "type",
+      "data": [
+        {
+          "Description": "regulation of ion transmembrane transport",
+          "p.adjust": 13.8,
+          "ID": "GO:0034765",
+          "GeneRatio": "213/4870",
+          "BgRatio": "483/18670",
+          "type": "BP"
+        },
+        {
+          "Description": "extracellular structure organization",
+          "p.adjust": 13.8,
+          "ID": "GO:0043062",
+          "GeneRatio": "191/4870",
+          "BgRatio": "422/18670",
+          "type": "BP"
+        },
+        {
+          "Description": "muscle contraction",
+          "p.adjust": 13.8,
+          "ID": "GO:0006936",
+          "GeneRatio": "169/4870",
+          "BgRatio": "360/18670",
+          "type": "BP"
+        },
+        {
+          "Description": "extracellular matrix organization",
+          "p.adjust": 12.4,
+          "ID": "GO:0030198",
+          "GeneRatio": "168/4870",
+          "BgRatio": "368/18670",
+          "type": "BP"
+        },
+        {
+          "Description": "myofibril assembly",
+          "p.adjust": 12,
+          "ID": "GO:0030239",
+          "GeneRatio": "52/4870",
+          "BgRatio": "73/18670",
+          "type": "BP"
+        },
+        {
+          "Description": "second-messenger-mediated signaling",
+          "p.adjust": 12,
+          "ID": "GO:0019932",
+          "GeneRatio": "191/4870",
+          "BgRatio": "439/18670",
+          "type": "BP"
+        },
+        {
+          "Description": "cornification",
+          "p.adjust": 11.7,
+          "ID": "GO:0070268",
+          "GeneRatio": "69/4870",
+          "BgRatio": "112/18670",
+          "type": "BP"
+        },
+        {
+          "Description": "muscle system process",
+          "p.adjust": 11.5,
+          "ID": "GO:0003012",
+          "GeneRatio": "198/4870",
+          "BgRatio": "465/18670",
+          "type": "BP"
+        },
+        {
+          "Description": "regulation of membrane potential",
+          "p.adjust": 11.4,
+          "ID": "GO:0042391",
+          "GeneRatio": "187/4870",
+          "BgRatio": "434/18670",
+          "type": "BP"
+        },
+        {
+          "Description": "signal release",
+          "p.adjust": 11.2,
+          "ID": "GO:0023061",
+          "GeneRatio": "196/4870",
+          "BgRatio": "462/18670",
+          "type": "BP"
+        },
+        {
+          "Description": "contractile fiber part",
+          "p.adjust": 20.8,
+          "ID": "GO:0044449",
+          "GeneRatio": "129/5148",
+          "BgRatio": "221/19717",
+          "type": "CC"
+        },
+        {
+          "Description": "contractile fiber",
+          "p.adjust": 20.8,
+          "ID": "GO:0043292",
+          "GeneRatio": "134/5148",
+          "BgRatio": "234/19717",
+          "type": "CC"
+        },
+        {
+          "Description": "sarcomere",
+          "p.adjust": 19.4,
+          "ID": "GO:0030017",
+          "GeneRatio": "119/5148",
+          "BgRatio": "204/19717",
+          "type": "CC"
+        },
+        {
+          "Description": "myofibril",
+          "p.adjust": 19.4,
+          "ID": "GO:0030016",
+          "GeneRatio": "127/5148",
+          "BgRatio": "224/19717",
+          "type": "CC"
+        },
+        {
+          "Description": "collagen-containing extracellular matrix",
+          "p.adjust": 18.9,
+          "ID": "GO:0062023",
+          "GeneRatio": "195/5148",
+          "BgRatio": "406/19717",
+          "type": "CC"
+        },
+        {
+          "Description": "synaptic membrane",
+          "p.adjust": 14.4,
+          "ID": "GO:0097060",
+          "GeneRatio": "193/5148",
+          "BgRatio": "432/19717",
+          "type": "CC"
+        },
+        {
+          "Description": "transmembrane transporter complex",
+          "p.adjust": 14.2,
+          "ID": "GO:1902495",
+          "GeneRatio": "154/5148",
+          "BgRatio": "324/19717",
+          "type": "CC"
+        },
+        {
+          "Description": "transporter complex",
+          "p.adjust": 13.1,
+          "ID": "GO:1990351",
+          "GeneRatio": "154/5148",
+          "BgRatio": "332/19717",
+          "type": "CC"
+        },
+        {
+          "Description": "ion channel complex",
+          "p.adjust": 12.7,
+          "ID": "GO:0034702",
+          "GeneRatio": "142/5148",
+          "BgRatio": "301/19717",
+          "type": "CC"
+        },
+        {
+          "Description": "I band",
+          "p.adjust": 12.7,
+          "ID": "GO:0031674",
+          "GeneRatio": "82/5148",
+          "BgRatio": "143/19717",
+          "type": "CC"
+        },
+        {
+          "Description": "receptor ligand activity",
+          "p.adjust": 19.7,
+          "ID": "GO:0048018",
+          "GeneRatio": "232/4802",
+          "BgRatio": "482/17697",
+          "type": "MF"
+        },
+        {
+          "Description": "passive transmembrane transporter activity",
+          "p.adjust": 15.1,
+          "ID": "GO:0022803",
+          "GeneRatio": "210/4802",
+          "BgRatio": "457/17697",
+          "type": "MF"
+        },
+        {
+          "Description": "ion channel activity",
+          "p.adjust": 15.1,
+          "ID": "GO:0005216",
+          "GeneRatio": "195/4802",
+          "BgRatio": "416/17697",
+          "type": "MF"
+        },
+        {
+          "Description": "gated channel activity",
+          "p.adjust": 15.1,
+          "ID": "GO:0022836",
+          "GeneRatio": "168/4802",
+          "BgRatio": "343/17697",
+          "type": "MF"
+        },
+        {
+          "Description": "glycosaminoglycan binding",
+          "p.adjust": 15.1,
+          "ID": "GO:0005539",
+          "GeneRatio": "124/4802",
+          "BgRatio": "229/17697",
+          "type": "MF"
+        },
+        {
+          "Description": "channel activity",
+          "p.adjust": 15.1,
+          "ID": "GO:0015267",
+          "GeneRatio": "209/4802",
+          "BgRatio": "456/17697",
+          "type": "MF"
+        },
+        {
+          "Description": "ion gated channel activity",
+          "p.adjust": 15,
+          "ID": "GO:0022839",
+          "GeneRatio": "164/4802",
+          "BgRatio": "334/17697",
+          "type": "MF"
+        },
+        {
+          "Description": "substrate-specific channel activity",
+          "p.adjust": 14.9,
+          "ID": "GO:0022838",
+          "GeneRatio": "198/4802",
+          "BgRatio": "428/17697",
+          "type": "MF"
+        },
+        {
+          "Description": "metal ion transmembrane transporter activity",
+          "p.adjust": 12.9,
+          "ID": "GO:0046873",
+          "GeneRatio": "196/4802",
+          "BgRatio": "438/17697",
+          "type": "MF"
+        },
+        {
+          "Description": "cation channel activity",
+          "p.adjust": 12.9,
+          "ID": "GO:0005261",
+          "GeneRatio": "153/4802",
+          "BgRatio": "319/17697",
+          "type": "MF"
+        }
+      ]
+    }
+  },
+  "survival_stat": [
+
+  ],
+  "clinical_stat": [
+    {
+      "title": "Aneuploidy",
+      "x": "x",
+      "y": "y",
+      "x_label": "Aneuploidy score",
+      "y_label": "Number of samples",
+      "chart_type": "bar",
+      "tool_tip": "Number of sample: {y}<br/>Range: {v}",
+      "data": [
+        {
+          "x": 0,
+          "y": 27,
+          "v": "<=0"
+        },
+        {
+          "x": 4,
+          "y": 174,
+          "v": "(0 ,4]"
+        },
+        {
+          "x": 8,
+          "y": 231,
+          "v": "(4 ,8]"
+        },
+        {
+          "x": 12,
+          "y": 144,
+          "v": "(8 ,12]"
+        },
+        {
+          "x": 16,
+          "y": 132,
+          "v": "(12 ,16]"
+        },
+        {
+          "x": 20,
+          "y": 146,
+          "v": "(16 ,20]"
+        },
+        {
+          "x": 24,
+          "y": 115,
+          "v": "(20 ,24]"
+        },
+        {
+          "x": 28,
+          "y": 56,
+          "v": "(24 ,28]"
+        },
+        {
+          "x": 36,
+          "y": 16,
+          "v": ">28"
+        },
+        {
+          "x": "NA",
+          "y": 43,
+          "v": "NA"
+        }
+      ]
+    },
+    {
+      "title": "MSI MANTIS",
+      "x": "x",
+      "y": "y",
+      "x_label": "MSI MANTIS score",
+      "y_label": "Number of samples",
+      "chart_type": "bar",
+      "tool_tip": "Number of sample: {y}<br/>Range: {v}",
+      "data": [
+        {
+          "x": 0.4,
+          "y": 1018,
+          "v": "<=0.4"
+        },
+        {
+          "x": 0.6,
+          "y": 11,
+          "v": "(0.4 ,0.6]"
+        },
+        {
+          "x": 0.84,
+          "y": 5,
+          "v": ">0.6"
+        },
+        {
+          "x": "NA",
+          "y": 50,
+          "v": "NA"
+        }
+      ]
+    },
+    {
+      "title": "MSI sensor",
+      "x": "x",
+      "y": "y",
+      "x_label": "MSI sensor score",
+      "y_label": "Number of samples",
+      "chart_type": "bar",
+      "tool_tip": "Number of sample: {y}<br/>Range: {v}",
+      "data": [
+        {
+          "x": 4,
+          "y": 1063,
+          "v": "<=4"
+        },
+        {
+          "x": 10,
+          "y": 7,
+          "v": "(4 ,10]"
+        },
+        {
+          "x": 32.93,
+          "y": 5,
+          "v": ">10"
+        },
+        {
+          "x": "NA",
+          "y": 9,
+          "v": "NA"
+        }
+      ]
+    },
+    {
+      "title": "Ethnicity",
+      "x": "x",
+      "y": "y",
+      "tool_tip": "{x}: {y} ({v}%)",
+      "data": [
+        {
+          "x": "Unknown",
+          "y": 169,
+          "v": 15.6
+        },
+        {
+          "x": "Hispanic Or Latino",
+          "y": 38,
+          "v": 3.5
+        },
+        {
+          "x": "Not Hispanic Or Latino",
+          "y": 877,
+          "v": 80.9
+        }
+      ]
+    },
+    {
+      "title": "Race",
+      "x": "x",
+      "y": "y",
+      "tool_tip": "{x}: {y} ({v}%)",
+      "data": [
+        {
+          "x": "Unknown",
+          "y": 90,
+          "v": 8.3
+        },
+        {
+          "x": "American Indian or Alaska Native",
+          "y": 1,
+          "v": 0.1
+        },
+        {
+          "x": "Asian",
+          "y": 60,
+          "v": 5.5
+        },
+        {
+          "x": "Black or African American",
+          "y": 182,
+          "v": 16.8
+        },
+        {
+          "x": "White",
+          "y": 751,
+          "v": 69.3
+        }
+      ]
+    }
+  ]
+}
+

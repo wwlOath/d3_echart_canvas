@@ -1,0 +1,48 @@
+svg:not(:root) {
+  overflow: hidden;
+}
+.chart_tooltip .wrapper {
+  position: relative;
+  bottom: 12px;
+  left: -50%;
+  padding: 6px;
+  color: #3d3d3d;
+  background: #fff;
+  font-size: 10px;
+  border: 2px solid #dedede;
+  border-radius: 4px;
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.chart_tooltip .wrapper .tooltip-content-c {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid #fff;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+.chart_tooltip .wrapper .tooltip-arrow {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -12px;
+  width: 0;
+  height: 0;
+  border-top: 12px solid #dedede;
+  border-right: 12px solid transparent;
+  border-left: 12px solid transparent;
+}
+.chart_tooltip {
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+}
